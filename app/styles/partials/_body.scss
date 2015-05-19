@@ -1,0 +1,47 @@
+$accent-color : #fa4542;
+$black : #1a1a1a;
+@mixin blacktype{
+	color: $black;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+#twelve {
+	header {background-color: lighten($accent-color, 5%);}
+	nav ul li {
+		a { 
+			color: $accent-color; 
+			&:hover {border-bottom: 3px dotted $accent-color;}
+		}
+	}
+	
+	#date,
+  article .issue-number {
+  	a {
+  		color: $accent-color;
+  		&:hover {border-bottom: 3px dotted $accent-color;}
+  	}
+  }
+	#toc {
+		a {
+			&:hover {color: darken($accent-color, 10%);}	
+		}
+		h3 { color: darken($accent-color, 10%); }
+	}	 
+
+	#footer-nav {
+		a,
+		h3 {
+			color: #1a1a1a;
+		}
+	}
+	#footer-nav {
+		h3 > a {
+			&:hover { color: darken($accent-color, 10%); }
+		}
+	}
+	.prose h3 {
+		margin-top: 2em;
+		@include blacktype;
+	}
+}
+
+

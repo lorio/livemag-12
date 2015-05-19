@@ -1,0 +1,44 @@
+$accent-color: #ef2774;
+.issue article {
+    clear: both
+}
+
+.issue article figure {
+    width: 23.63636%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+    position: relative;
+    padding: 8px
+}
+
+.issue article p {
+    width: 74.54545%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding: 10px;
+    text-align: left;
+    font: 400 0.8em/1.4em "Author",Helvetica,Arial,sans-serif
+}
+
+.issue article .issue-number {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    -webkit-transform: scale(3, 3);
+    -moz-transform: scale(3, 3);
+    -ms-transform: scale(3, 3);
+    -o-transform: scale(3, 3);
+    transform: scale(3, 3)
+}
+
+.issue article .issue-number:hover,.issue article .issue-number:focus {
+    font-family: "Author", Helvetica, Arial, sans-serif;
+    color: $accent-color;
+}

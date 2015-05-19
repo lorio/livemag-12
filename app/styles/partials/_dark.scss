@@ -1,0 +1,126 @@
+$accent-color: #ef2774;
+.dark-container {
+    margin: 0 auto;
+    background: #070707 repeat;
+    color: #f9f9f9;
+    max-width: 99%
+}
+
+.dark-container header {
+    width: 100%;
+    height: 60px;
+    background-color: $accent-color;
+    color: #1a1a1a;
+    text-shadow: rgba(255,255,255,0.5) 0 1px 0
+}
+
+.dark-container header a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit
+}
+
+.dark-container header a:active,.dark-container header a:focus {
+    outline: none
+}
+
+.dark-container nav ul {
+    text-align: center;
+    padding: 0
+}
+
+.dark-container nav ul li {
+    font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", "Courier New", "American Typewriter";
+    font-weight: 600;
+    padding: 0 2em;
+    display: inline;
+    color: #f9f9f9;
+}
+
+.dark-container nav ul li a {
+    color: $accent-color;
+    text-decoration: none;
+    text-shadow: rgba(255,255,255,0.5) 0 1px 0;
+}
+
+.dark-container nav ul li a:hover {
+    border-bottom: 3px dotted $accent-color;
+}
+
+.dark-container .article-wrap {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 100%
+}
+
+.dark-container .article-wrap #date,.dark-container .article-wrap .issue article .issue-number,.issue article .dark-container .article-wrap .issue-number {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em
+}
+
+.dark-container .article-wrap #date a,.dark-container .article-wrap .issue article .issue-number a,.issue article .dark-container .article-wrap .issue-number a {
+    color: $accent-color;
+    text-decoration: none
+}
+
+.dark-container .article-wrap #date a:hover,.dark-container .article-wrap .issue article .issue-number a:hover,.issue article .dark-container .article-wrap .issue-number a:hover {
+    border-bottom: 3px dotted $accent-color;
+}
+
+.dark-container .article-wrap img {
+    text-align: center;
+    pointer-events: none
+}
+
+.dark-container .article-wrap article {
+    margin-top: 2em;
+    padding: .6em 1.5em;
+    position: relative;
+    width: 74.54545%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 12.72727%;
+    clear: none;
+    background-color: #e9eff1;
+    border: 1px dotted #ed541b;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px
+}
+
+.dark-container .article-wrap article p {
+    letter-spacing: -0.03em;
+    font: 600 1em/1.6em "Author",Helvetica,Arial,sans-serif;
+    text-align: justify;
+    color: #1a1a1a
+}
+
+.dark-container .article-wrap article p a {
+    color: #1a1a1a;
+    text-decoration: none;
+    background-color: #f9f9f9
+}
+
+.dark-container .article-wrap article p a:hover {
+    color: $accent-color;
+}
+
+.dark-container .article-wrap article h2 {
+    margin-bottom: 0;
+    color: $accent-color;
+    font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", "Courier New", "American Typewriter";
+    text-shadow: #fff 0 1px 0
+}
+
+#push {
+    color: #f9f9f9;
+}
+
+.dark-container #push {
+    color: black;
+    line-height: 2em;
+}
